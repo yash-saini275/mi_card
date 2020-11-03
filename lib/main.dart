@@ -1,9 +1,7 @@
 //import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(MyApp());
-}
+void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
   @override
@@ -15,12 +13,10 @@ class MyApp extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-
               CircleAvatar(
                 radius: 50.0,
-                backgroundImage: AssetImage('images/Layout-Challenge-Specs.png'),
+                backgroundImage: AssetImage('images/passport_photo.jpg'),
               ),
-
               Text(
                 'Yash Saini',
                 style: TextStyle(
@@ -30,7 +26,6 @@ class MyApp extends StatelessWidget {
                   color: Colors.white,
                 ),
               ),
-
               Text(
                 'FLUTTER DEVELOPER',
                 style: TextStyle(
@@ -41,7 +36,6 @@ class MyApp extends StatelessWidget {
                   letterSpacing: 2.5,
                 ),
               ),
-
               SizedBox(
                 height: 20.0,
                 width: 150.0,
@@ -49,7 +43,6 @@ class MyApp extends StatelessWidget {
                   color: Colors.teal[100],
                 ),
               ),
-
               Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 //padding: EdgeInsets.all(10.0),
@@ -60,7 +53,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                    '+91 798 213 9170',
+                    '+91 798 213 9710',
                     style: TextStyle(
                       fontSize: 18.0,
                       fontFamily: 'SansSourcePro',
@@ -69,7 +62,6 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
-
               Card(
                 margin: EdgeInsets.symmetric(vertical: 10.0, horizontal: 25.0),
                 //padding: EdgeInsets.all(10.0),
@@ -80,7 +72,7 @@ class MyApp extends StatelessWidget {
                     color: Colors.teal,
                   ),
                   title: Text(
-                    'yash.saini375@gmail.com  ',
+                    'yash.saini375@gmail.com',
                     style: TextStyle(
                       fontSize: 18.0,
                       fontFamily: 'SansSourcePro',
@@ -89,7 +81,6 @@ class MyApp extends StatelessWidget {
                   ),
                 ),
               ),
-
             ],
           ),
         ),
